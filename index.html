@@ -12,16 +12,18 @@
 </head>
 
 <body>
-    <nav class="flex justify-around items-center">
-        <div class="w-135">
+    <nav class="flex  md:justify-around items-center">
+        <div class="lg:w-135 md:w-20 md:justify-around justify-between">
             <img src="assets/logo.png" alt="">
         </div>
-        <ul class="flex gap-8 text-2xl">
-            <li class="font-bold"><a href="">Home</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href=""><i class="fa-solid fa-cart-shopping "></i>cart
+        <ul class="lg:flex  gap-8 text-2xl ">
+            <li class="font-bold md:hidden"><a href="">Home</a></li>
+            <li class="lg:flex md:hidden"><a href="">Shop</a></li>
+            <li class="lg:flex md:hidden"><a href="">About us</a></li>
+
+            <li class="lg:flex md:block "><a href=""><i class="fa-solid fa-cart-shopping "></i>cart
                     ($56)</a></li>
+
         </ul>
     </nav>
     <section class="always_fresh_flowers">
